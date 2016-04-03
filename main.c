@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     if(argc >= 3)
     {
-         NN = argv[2];
+         NN = atoi(argv[2]);
     }
 
     else
@@ -102,7 +102,6 @@ int main(int argc, char *argv[])
   Liste *courant = NULL;
   Bnoeud *nouveauArbre;
   int est_dans_arbre = supprimer_element(chaine, nb_a_supprimer);
-  printf("est dans arbre : %d \n\n", est_dans_arbre);
   if(est_dans_arbre == 1)
   {
       printf("On supprime le nombre %d\n\n", nb_a_supprimer);
