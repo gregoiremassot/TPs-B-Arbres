@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			if (recherche_val_Barbre(mon_Barbre, valeur) == VRAI)
+            if (recherche_val_Barbre(mon_Barbre, valeur) == VRAI)
 				printf(" La valeur s'y trouve déja. \n");
 			else
 			{
